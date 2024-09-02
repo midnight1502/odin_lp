@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: ui-sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 0;
+    margin: 0 10px;
+}
+
+header ul li a:hover {
+    font-weight: 600;
+}
+
+div.logo {
+    background-image: url(./images/logo.png);
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+.container {
+    
+}
+
+div.container .top {
+    display: flex;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 3% 8%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+div.container .top .head_title {
+    width: 500px;
+}
+
+div.container h2 {
+    text-align: center;
+    margin: 30px auto;
+}
+
+div.head_title h1 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+button {
+    padding: 5px 30px;
+    border-radius: 50px;
+    width: auto;
+    height: 40px;
+    border-color: #ffffff;
+    background-color: transparent;
+    border-style: solid;
+    color: #ffffff;
+    transition: 1s;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: #ffffff;
+    color: #3882F6;
+    border-color: #3882F6;
+}
+
+div.top .slide_pic {
+    display: flex;
+    flex-shrink: 0;
+    background-image: url(./images/crypto.jpg);
+    width: 500px;
+    height: 340px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.container .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 3% 10%;
+    gap: 40px;
+    text-align: center;
+}
+
+div.container .content .tile {
+    padding: 50px 20px;
+    font-size: 20px;
+    width: 300px;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 50%;
+    transition: border-color 1s;
+}
+
+div.container .content .tile:hover {
+    border-color: #1f2937;
+}
+
+div.container .quote {
+    display: flex;
+    padding: 50px 20%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    justify-content: space-around;
+}
+
+div.quote p.text {
+    font-size: 36px;
+    font-style: oblique;
+    color: #1f2937;
+}
+
+div.quote p.author {
+    display: flex;
+    align-self: end;
+    font-weight: 800;
+    font-style: normal;
+}
+
+div.container .signup {
+    display: flex;
+    background-color: #3882F6;
+    color: #ffffff;
+    margin: 5% 20%;
+    padding: 20px 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+div.signup .info {
+    display: flex;
+    flex-direction: column;
+}
+
+div.signup .info p.title {
+    margin-bottom: -10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+div.signup .info p.text {
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #ffffff;
+    justify-content: center;
+    padding: 1% 0;
+}
